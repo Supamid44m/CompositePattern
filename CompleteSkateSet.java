@@ -19,7 +19,7 @@ public class CompleteSkateSet implements Skate{
 
     @Override
     public void getinfo() {
-        System.out.println("This completeset has");
+        System.out.println("This completeset:"+" " +id+" "+ "has");
         for (Object skate : completeskates) {
             Skate sk8 = (Skate) skate;
                  sk8.getinfo();
